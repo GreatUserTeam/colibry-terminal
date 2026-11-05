@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=GUS Terminal
+GenericName=Terminal Emulator
+Comment=Terminal emulator of the Colibry desktop
+Exec=gus-terminal
+Icon=gus-terminal
+Terminal=false
+Categories=System;TerminalEmulator;Utility;
+Keywords=shell;prompt;command;commandline;cmd;
+StartupNotify=true
+StartupWMClass=gus-terminal
+Actions=NewWindow;
+
+[Desktop Action NewWindow]
+Name=New Window
+Exec=gus-terminal
